@@ -1,0 +1,147 @@
+body 
+{
+padding: 0px;
+margin: 0px;
+height: 100%;
+width: 100%;
+background-size: 100%;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+
+
+li
+{
+	list-style: none;
+	padding: 5px;
+}
+.menu
+{
+	background-color: rgba(230,242,243,0.9);
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+	box-shadow: 0px 0px px #222222df;
+}
+.menuele
+{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	transition: 300ms;
+	border-radius: 0px;
+	font-family: Fantasy;
+}
+.menuele:hover
+{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	background-color: rgba(150,150,150,0.5);
+	transition: 300ms;
+	border-radius: 20px;
+	font-family: Fantasy;
+	position: relative;
+}
+
+a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+a:hover
+{
+	color: gray;
+	text-decoration: inherit;
+}
+.description
+{
+	font-size: 22px;
+}
+.menuele2
+{
+	display: inline;
+	text-decoration: none;
+	color: black;
+}
+.menuele2:hover
+{
+	display: inline;
+	text-decoration: none;
+	color: black;
+}
+.menulist
+{
+	display: inline;
+}
+.page 
+{
+	position: fixed;
+    top: 70px;
+    bottom: 0px;
+    left: 20%;
+    right: 20%;
+    background-color: rgba(171, 247, 255,0.85);
+    padding: 70px;
+    z-index: 555;
+    overflow-y: scroll;
+    background: linear-gradient(#89FFF9BB, magenta);
+
+}
+
+.Titre 
+{
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	margin: 50px 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    margin-top: 5px;
+    border-radius: 40px;
+    background: rgb(255, 255, 255);
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255); 
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+}
+}
+.sous-liste{
+	display: none;
+}
+.menuele:hover  .sous-liste{
+	display: block;
+	position: absolute;
+	background-color: #1abc5c;
+	width: 400px;
+	text-decoration-color: rgb(200,200,200);
+	z-index: 99999999;
+}
+#sl{
+	display: none;
+}
+.menuele:hover #sl{
+	display: block;
+	position: absolute;
+	background-color: #1abc5c;
+	width: 400px;
+	text-decoration-color: rgb(160,160,160);
+	z-index: 99999999;
+
+}
