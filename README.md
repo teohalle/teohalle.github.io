@@ -1,16 +1,45 @@
-# React + Vite
+# Téo Hallé — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio repository! This project showcases my work as an AI & Software Engineer, featuring a modern design with React, Vite, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## Features
+- **Glassmorphism Design**: Aesthetic frosted glass effects with vibrant gradients.
+- **Interactive Chat**: Simulated AI chat interface trained on my CV.
+- **Responsive Layout**: Optimized for all devices.
+- **Dynamic Animations**: Smooth transitions and effects using Framer Motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Structure
+- `src/`: Contains all source code, including components, styles, and data.
+- `public/`: Static assets like icons and images.
+- `vite.config.js`: Configuration for Vite.
 
-## React Compiler
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/teohalle/teohalle.github.io.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd teohalle.github.io
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Deployment
+This project is deployed using GitHub Pages. Ensure the `base` path in `vite.config.js` is set to `'/'` before deploying.
 
-## Expanding the ESLint configuration
+## Contact
+Feel free to reach out:
+- **Email**: teohalle14@gmail.com
+- **LinkedIn**: [teo-halle](https://www.linkedin.com/in/teo-halle)
+- **GitHub**: [teohalle](https://github.com/teohalle)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Thank you for visiting my portfolio repository!
