@@ -52,7 +52,7 @@ export default function Hero() {
 
         <motion.div variants={itemVariants} className="flex gap-4 mt-8 flex-wrap">
           <a 
-            href="#chatcv" 
+            href="#chat"
             className="px-6 py-3 rounded-xl font-medium bg-[var(--color-purple-glow)]/10 text-white border border-[var(--color-purple-glow)]/50 hover:bg-[var(--color-purple-glow)]/30 hover:shadow-[var(--shadow-purple-glow)] hover:-translate-y-1 transition-all duration-300"
           >
             Chat with my CV →

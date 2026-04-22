@@ -1,4 +1,4 @@
-const experience = [
+export const experience = [
   {
     id: "bpce",
     role: "Software Engineer (Apprenticeship)",
@@ -30,5 +30,3 @@ const experience = [
     stack: ["Python", "LLM", "MCP", "Microservices", "Agentic AI"]
   }
 ];
-
-export default experience;
