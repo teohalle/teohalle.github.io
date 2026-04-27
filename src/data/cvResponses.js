@@ -9,8 +9,8 @@ const knowledgeBase = [
   },
   {
     category: "projects",
-    keywords: ["project", "built", "made", "created", "work", "42sh", "shell", "java", "microservice", "portfolio", "github"],
-    answer: `Téo has worked on 3 notable projects:\n\n**42sh** (C, Jan–Feb 2024) — A POSIX-compliant Unix shell built from scratch with a full Lexer, Parser, and AST pipeline in a team of 4.\n\n**Java Microservice Architecture** (Java, March 2024) — A scalable REST API using Quarkus and Hibernate, designed following Clean Architecture principles.\n\n**RedTeamLLM** (Python, Sept 2025–Present) — An autonomous pentesting agent at EPITA's research lab. Python microservices with deterministic backtracking and MCP integration.`
+    keywords: ["project", "built", "made", "created", "work", "42sh", "shell", "java", "microservice", "portfolio", "github", "tiger", "compiler"],
+    answer: `Téo has worked on several notable projects:\n\n**42sh** (C, Jan–Feb 2024) — A POSIX-compliant Unix shell built from scratch with a full AST pipeline.\n\n**Java Microservice Architecture** (Java, March 2024) — A scalable REST API using Quarkus following Clean Architecture.\n\n**Tiger Compiler** (C++, March–April 2024) — Implemented the front-end of a compiler for the Tiger language, including Lexer, Parser, AST, and type-checking.\n\n**RedTeamLLM** (Python, Sept 2025–Present) — An autonomous pentesting agent at EPITA's research lab.`
   },
   {
     category: "experience",
@@ -25,7 +25,7 @@ const knowledgeBase = [
   {
     category: "skills",
     keywords: ["skill", "know", "stack", "language", "technology", "tech", "tools", "use", "framework", "database", "devops"],
-    answer: `Téo's technical stack covers:\n\n**Languages:** Python, Java, C/C++/C#, TypeScript\n**AI/ML:** LangChain, Hugging Face, Faiss (VectorDB), RAG architectures, LLMs\n**Web:** React, FastAPI, SQL, MongoDB\n**DevOps:** Docker, Kubernetes, GCP, Jenkins, OpenShift, SonarQube, Git\n\nHis sweet spot is the intersection of **GenAI** and **production-grade software engineering**.`
+    answer: `Téo's technical stack covers:\n\n**Languages:** Python, Java, C/C++/C#, TypeScript, JavaScript\n**AI/ML:** LangChain, Hugging Face, Faiss (VectorDB), RAG architectures, LLMs\n**Web:** React, FastAPI, SQL, MongoDB\n**DevOps:** Docker, Kubernetes, GCP, Jenkins, OpenShift, SonarQube, Git\n\nHis sweet spot is the intersection of **GenAI** and **production-grade software engineering**.`
   },
   {
     category: "education",

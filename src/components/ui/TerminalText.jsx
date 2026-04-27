@@ -1,19 +1,21 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export default function TerminalText({ lines, speed = 30, prefix = "> " }) {
   const [visibleLines, setVisibleLines] = useState(0);
   const [currentText, setCurrentText] = useState('');
+  
+  const targetTextRef = useRef('');
 
   useEffect(() => {
     if (visibleLines >= lines.length) return;
 
-    const targetText = lines[visibleLines];
+    targetTextRef.current = lines[visibleLines];
     let i = 0;
     setCurrentText('');
 
     const timer = setInterval(() => {
-      if (i < targetText.length) {
-        setCurrentText((prev) => prev + targetText.charAt(i));
+      if (i < targetTextRef.current.length) {
+        setCurrentText(targetTextRef.current.slice(0, i + 1));
         i++;
       } else {
         clearInterval(timer);
@@ -22,7 +24,8 @@ export default function TerminalText({ lines, speed = 30, prefix = "> " }) {
     }, speed);
 
     return () => clearInterval(timer);
-  }, [visibleLines, lines, speed]);
+    
+  }, [visibleLines, speed]); 
 
   return (
     <div className="font-mono text-sm text-[var(--color-terminal-green)] opacity-80">

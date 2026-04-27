@@ -64,7 +64,7 @@ export default function DataBlock({ project }) {
           </div>
 
           {/* Terminal Lines */}
-          <div className="mb-6 h-[100px] overflow-hidden">
+          <div className="mb-6 h-[130px] overflow-hidden">
             <TerminalText 
               key={isHovered ? 'hover' : 'static'} // Forces re-typing on hover
               lines={terminalLines} 

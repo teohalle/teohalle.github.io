@@ -1,13 +1,12 @@
 export const skills = {
-  languages:   ["Python", "Java", "C/C++/C#", "TypeScript"],
-  frameworks:  ["FastAPI", "React", "LangChain", "SQL"],
-  ai_ml:       ["LangChain", "Hugging Face", "Faiss (VectorDB)", "RAG", "LLMs", "Agentic AI"],
-  databases:   ["MongoDB (NoSQL)", "Faiss (VectorDB)", "SQL"],
-  devops:      ["Docker", "Kubernetes", "GCP", "Jenkins", "OpenShift", "SonarQube", "Bitbucket", "Git"],
-  softskills:  ["Autonomy", "Communication", "Time Management", "Leadership", "Teamwork"],
+  languages:   ["Python", "Java", "C/C++/C#", "TypeScript", "JavaScript"],
+  frameworks:  ["FastAPI", "React", "Pydantic", "Beanie", "SQLAlchemy", "Pytest"],
+  ai_ml:       ["LangChain", "Hugging Face", "Faiss", "ChromaDB", "RAG", "LLMs", "Agentic AI"],
+  databases:   ["MongoDB", "pgvector", "SQL"],
+  devops:      ["Docker", "Kubernetes", "GCP", "Jenkins", "OpenShift", "SonarQube", "Postman", "Git"],
+  architecture: ["Microservices", "Clean Architecture", "REST API", "CI/CD", "Agile Scrum"],
   languages_spoken: [
-    { lang: "French", level: "Native" },
-    { lang: "English", level: "C1 – TOEIC 915/990" },
-    { lang: "Spanish", level: "A2" }
+    { lang: "French" },
+    { lang: "English" }
   ]
 };

@@ -37,9 +37,9 @@ export default function About() {
                 {items.map((skill, index) => {
                   // Check if the skill is an object (like in languages_spoken) or a standard string
                   const isObject = typeof skill === 'object' && skill !== null;
-                  
-                  // Format the string for the label: e.g., "French (Native)" or just "Python"
-                  const labelText = isObject ? `${skill.lang} (${skill.level})` : skill;
+
+                  // Format the string for the label: e.g., "French" or just "Python"
+                  const labelText = isObject ? `${skill.lang}` : skill;
                   
                   // Use the formatted text for both the key and the label
                   return <GlowBadge key={labelText} label={labelText} color="purple" />;

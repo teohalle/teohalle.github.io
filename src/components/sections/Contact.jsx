@@ -44,7 +44,7 @@ export default function Contact() {
       </GlassCard>
       
       <div className="mt-24 text-center text-xs font-mono text-[var(--color-text-dim)]">
-        Designed & Built by Téo Hallé <br/> EPITA 2026
+        Designed & Built by Téo Hallé
       </div>
     </SectionWrapper>
   );
